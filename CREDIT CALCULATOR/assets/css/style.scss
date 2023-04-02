@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: regular;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(/assets/fonts/ShortStack-Regular.ttf);
+}
+
+body{
+    background-image: linear-gradient(to right, #FF512F, #F09819);
+    
+    .all{
+        margin-top: 10rem;
+        margin-left: 10rem;
+        .main{
+            position: relative;
+            margin-bottom: 3rem;
+            
+            p{
+                position: absolute;
+                top: 100%;
+                font-size: 16px;
+            }
+    
+            .input{
+                input{
+                    width: 100%;
+                    padding: 1rem;
+                    border-radius: 10px;
+                    font-size: 20px;
+                    border: none;
+                    outline-style: none;
+                }
+            }
+    
+            .range{
+                position: absolute;
+                top: 80%;
+                width: 100%;
+    
+                input{
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .info{
+            margin-bottom: 2.5rem;
+        }
+
+        .button{
+            margin-top: 2.6rem;
+
+            button{
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                border: 1px solid #42B72A;
+                background-color: #42B72A;
+                padding: 1rem 2rem;
+                border-radius: 10px;
+            }
+        }
+    }
+}

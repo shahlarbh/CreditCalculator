@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit calculator</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="all row">
+                    <div class="col-lg-6">
+                        <div class="col-lg-12 main">
+                            <div class="input">
+                                <input id="input1" type="text" placeholder="Kredit məbləği (AZN)">
+                            </div>
+                            <div class="range">
+                                <input id="range1" type="range" min="1" max="35000" value="0" step="1">
+                            </div>
+                        </div>
+                        <div class="col-lg-12 main">
+                            <div class="input">
+                                <input id="input2" type="text" placeholder="Kredit müddəti (ay)">
+                            </div>
+                            <div class="range">
+                                <input id="range2" type="range" min="1" max="59" value="0" step="1">
+                            </div>
+                        </div>
+                        <div class="col-lg-12 main">
+                            <div class="input">
+                                <input id="input3" type="text" placeholder="Faiz dərəcəsi (%)">
+                            </div>
+                            <div class="range">
+                                <input id="range3" type="range" min="11.9" max="20.9" value="0" step="0.1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="col-lg-12 info">
+                            <h2 id="pertotal">₼</h2>
+                            <p>Aylıq ödəniş</p>
+                        </div>
+                        <div class="col-lg-12 info">
+                            <h2 id="total">₼</h2>
+                            <p>Ümumi məbləğ</p>
+                        </div>
+                        <div class="col-lg-12 button">
+                            <button id="button">Kredit alın</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
